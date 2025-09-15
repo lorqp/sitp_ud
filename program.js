@@ -7,6 +7,7 @@ var marker = L.marker([4.616176771156486, -74.16097860477704]).addTo(map);
 var marker = L.marker([4.616176771156486, -74.16097860477704]).addTo(map);
 
 
+
 // La función `crearGeoJSON` ahora toma el mapa y los datos GeoJSON como argumentos.
 // Esto la hace más flexible, ya que puedes usarla para diferentes mapas y conjuntos de datos.
 function crearGeoJSON(map, geoJSONData) {
